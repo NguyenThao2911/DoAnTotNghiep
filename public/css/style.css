@@ -1,0 +1,198 @@
+body {
+	padding: 0px 12%;
+	background-color: #e9eaed;
+	font-family: arial;
+}
+
+.container {
+	background-color: #fff;
+}
+
+.header {
+	height: 200px;
+}
+
+.header h3 {
+	margin: 0px;
+	font-family: Constantia;
+
+}
+.header .logo {
+	float: left;
+	margin-right: 15px;
+}
+.header .logo img {
+	width: 200px;
+	height: 200px;
+}
+.header .title {
+	float: left;
+}
+.header .title h3{
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+.header .title h2{
+	margin: 0px;
+}
+
+.header .title h4{
+	margin: 5px 0px;
+	padding-left: 160px;
+}
+.header .login {
+	float: right;
+	width: 140px;
+}
+
+.container .footer {
+	background-color: #efefef;
+}
+
+.container .footer .icon, .info{
+	float: left;
+}
+.container .footer .icon {
+	padding: 0px 20px;
+}
+.container .footer .info p {
+	margin: 0px;
+}
+.container .footer .info h4 {
+	margin-bottom: 5px;
+}
+.body {
+	
+}
+
+#menu ul {
+	background-color: #28528a;
+	height: 30px;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+#menu ul li {
+	list-style-type: none;
+	display: inline-table;
+    padding: 5px 10px;
+    position: relative;
+}
+
+#menu ul li .sub-menu{
+        display: none;
+        position: absolute;
+        /*top: 0;*/
+        /*left: 100%;*/
+        width: 170px;
+        height: 80px;
+        /*background-color: #eee;*/
+        padding: 5px 0px;
+        /*z-index: 100;*/
+}
+/*#menu ul li .sub-menu li:hover{
+	background-color: #fff;
+}*/
+#menu ul li .sub-menu li:hover a{
+	color: red;
+}
+#menu ul li:hover .sub-menu {
+	display: block;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+.body .left {
+	width: 54%;
+	float: left;
+	margin-right: 10px;
+}
+
+.body .left .search{
+	background-color: #28528a;
+	height: 35px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.body .right {
+	width: 45%;
+	float: left;
+	margin-bottom: 5px;
+	
+}
+
+.body .right p {
+	margin: 5px 0px;
+	font-size: 14px;
+}
+
+.body .right a {
+	text-decoration: none;
+	color: #29739D;
+}
+
+.body .right a:hover {
+	text-decoration: underline;
+}
+
+.body .right h4 {
+	margin: 0px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e9eaed;
+	color: #2A79B9;
+}
+
+.right .row {
+	width: 100%;
+}
+.tailieuso {
+	float: left;
+	width: 44%;
+	background-color: #fff;
+	margin-right: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #dcdcdc;
+}
+
+.tailieuvanban {
+	float: left;
+	width: 44%;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #dcdcdc;
+}
+
+
+/*NỘI QUY*/
+.body .noiquy .left {
+	float: left;
+	width: 63%;
+	margin-right: 10px;
+	background-color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #dcdcdc;
+}
+.body .noiquy .right {
+	float: left;
+	width: 30%;
+	background-color: #fff;
+	padding: 5px 5px;
+}
+.body .noiquy .right a {
+	font-size: 13px;
+	color: #174f91;
+}
+.body .noiquy h3 {
+	color: #29739d;
+}
+.body .noiquy p, tr td, tr th {
+	font-size: 14px;
+	color: #505050;
+}
